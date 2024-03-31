@@ -83,3 +83,5 @@ Z
 *email_land_project/email_generator/urls.py,4\6\4664bd4d637161aa4c6c250b93985f0223aa5b4f
 Z
 *email_land_project/email_generator/form.py,c\e\ce3b60257d135b2cee234a103dd7cf80c09b5a3c
+[
++email_land_project/email_generator/forms.py,2\3\2357c8c1d372de354f994288701834647066369e
