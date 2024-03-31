@@ -81,3 +81,5 @@ Z
 Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9\0\909762385fc6eb20f922a91c6865741308b57f2c
 Z
 *email_land_project/email_generator/urls.py,4\6\4664bd4d637161aa4c6c250b93985f0223aa5b4f
+Z
+*email_land_project/email_generator/form.py,c\e\ce3b60257d135b2cee234a103dd7cf80c09b5a3c
