@@ -4,12 +4,13 @@ from django.utils import timezone
 
 
 class UserLimit(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    telegram_id = models.BigIntegerField(primary_key=True, default=None)
     email_count = models.IntegerField(default=2)
     creation_date = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return self.user.username
+        return f"{self.telegram_id}: {self.email_count} emails left"
+
 
 
 class EmailAccount(models.Model):
